@@ -33,6 +33,8 @@
 - [Génie logiciel](#génie-logiciel)
   - [Approche processus ISO](#approche-processus-iso)
   - [Approche processus "Roue de Deming - PDCA"](#approche-processus-roue-de-deming---pdca)
+- [Acteurs du projet et Gouvernance](#acteurs-du-projet-et-gouvernance)
+  - [Les moyens humains : les rôles dans un projet](#les-moyens-humains--les-rôles-dans-un-projet)
 
 ## **Définition d'un projet informatique**
 
@@ -351,4 +353,46 @@ Pour choisir au mieux son modèle, cela ce fait en fonction de 2 facteurs.
 
 ---
 
-##
+## **Acteurs du projet et Gouvernance**
+
+### **<u>Les moyens humains : les rôles dans un projet</u>**
+
+La gestion des acteurs du projet, c'est :
+
+- Prendre en compte les attentes et les contraintes des différentes parties prenantes
+- Impliquer les partenaires tout au long de la vie du projet
+- Créer les conditions d'une coopération efficace avec les ressources de l'entreprise mobilisables au cours du projet
+
+**Maîtrise d'ouvrage (MOA) = client**
+Centré sur les avantages attendus, anticipe / achète / définit / valide / arrête
+
+**Maîtrise d'oeuvre (MOE) = fournisseur**  
+Centré sur les objectifs de réalisation  
+Analyse les risques, propose le plan d'actions  
+Pilote la réalisation  
+Optimise les ressources sur les 3 axes coût / délai / qualité
+
+> Le chef de projet peut être MOA ou MOE
+
+**Comités de pilotage / sponsor**  
+Coordonnent, arbitrent, valident, équilibrent objectif / capacités / charges
+
+| Ceux qui ....                                                         | Sont les ...                                              |
+| :-------------------------------------------------------------------- | :-------------------------------------------------------- |
+| demande, payent, utilisent ou décient d'arrêter le projet             | Client, maître d'ouvrage (MOA), commanditaire, bailleur   |
+| pilotent le projet                                                    | Chef de projet, maître d'oeuvre (MOE)                     |
+| réalisent le projet                                                   | Equipe projet : acteurs projet, prestataires, consultants |
+| sont concernés, soutiennent ou s'opposent au projet sans y participer | Sponsors, parties prenantes (stakeholders)                |
+
+> **Le commanditaire "MOA"**, aussi appelé le client ou le représentant du client final .
+> Dans le monde agile : **Business Owner** .
+> Son rôle dans le projet sera au niveau "Sponsor" et consistera à **valider les jalons du projet, investir d'avantage de budget, arbitrer les situations complexes du projet**.
+
+> **Le chef de projet**, souvent positionné au niveau de la **"MOE"**, il est responsable de la réussite globale du projet sous triptyque **"coûts"**, **"qualité"**, **"délai"**.  
+> C'est le **garant de la constitution de son équipe, de son animation, et de la gestion de l'ensemble des chantiers, lots, risques, et communications, dans le respect du plannig projet**.
+
+> Le **chef de chantier** fait partie de l'équipe projet et dispose d'un rôle clé dans la réussite de la tenu du planning.  
+> Il est **responsable d'un ensemble de lots et donc de travaux nécessaires à la réalisation de l'ouvrage**.
+
+> **Expert, développeur, architecte, Data Analyst**,...  
+> Ce sont les acteurs clés du projet qui **réalisent les lots affectés à un chantier**.
