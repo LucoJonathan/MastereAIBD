@@ -15,8 +15,8 @@ runs:
           doc
           ci
           secu
-          [major]
-          [minor]
+          (\[)?major(\])?
+          (\[)?minor(\])?
         requiredScope: true
         subjectPattern: ^(?![A-Z]).+$
         subjectPatternError: |
