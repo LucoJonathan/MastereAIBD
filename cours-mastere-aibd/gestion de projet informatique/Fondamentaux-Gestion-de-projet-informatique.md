@@ -28,6 +28,7 @@
 - [À quoi ressemble le SI en entreprise](#à-quoi-ressemble-le-si-en-entreprise)
   - [Le SI en entreprise](#le-si-en-entreprise)
   - [Le pricipe et processus d'organisation](#le-pricipe-et-processus-dorganisation)
+  - [Les ressources humaines dans le SI d'entreprise](#les-ressources-humaines-dans-le-si-dentreprise)
 
 ## **Définition d'un projet informatique**
 
@@ -250,6 +251,8 @@ Pour choisir au mieux son modèle, cela ce fait en fonction de 2 facteurs.
 - Prédictif - cycle en V : Projet d'ingénierie, Industrie, BTP...
 - **Amélioration continue - Lean six sigma** : Projet d'amélioration de l'efficacité opérationnelle et d'accompagnement à la transformation d'entreprises.
 
+---
+
 ## **À quoi ressemble le SI en entreprise**
 
 ### **<u>Le SI en entreprise</u>**
@@ -259,3 +262,49 @@ Pour choisir au mieux son modèle, cela ce fait en fonction de 2 facteurs.
 ### **<u>Le pricipe et processus d'organisation</u>**
 
 ![Principe et processus d'organisation](Images/principe-et-processus-d-organisation.png)
+
+### **<u>Les ressources humaines dans le SI d'entreprise</u>**
+
+- **Organisation et Gestion du SI**
+  - Consultant en systèmes d'information
+  - Ubaniste des systèmes d'information (architecte)
+  - Responsable du système d'information "métier" (domaine)
+  - Gestionnaire d'applications (par rapport aux processus)
+  - Chargé d'affaire internes (ou ingénieur d'affaires)
+- **Management de projets**
+  - Directeur de projets (ou de programme)
+  - Chef de projet maitrise d'ouvrage (ou métier)
+  - Chef de projet maitrise d'oeuvre (ou informatique)
+- **Cycle de vie des applications**
+  - Responsable des systèmes applicatifs (ou de domaine applicatif)
+  - Concepteur - Développeur (Analyste - Réalisateur)
+  - Testeur (Homologateur)
+  - Intégrateur d'applications
+  - Paramétreur de progiciels
+- **Exploitation**
+  - Technicien d'exploitation
+  - Technicien poste de travail (micro)
+  - Technicien réseaux - télécoms
+  - Administrateur d'outils / de systèmes / de réseaux - télécoms
+  - Administrateur de base de données (DBA)
+  - Intégrateur d'exploitation
+  - Pilote d'exploitation (superviseur)
+  - Expert systèmes d'expoitation (ingénieur système)
+  - Expert réseaux - télécoms
+  - Architecte technique
+- **Support et assistance aux utilisateurs**
+  - Assistant fonctionnel (correspondant utilisateurs)
+  - Technicien support utilisateur (Helpdesk, Hotline)
+- **Support méthode, qualité et sécurité**
+  - Expert méthode et outils / qualité / sécurité
+  - Manager de contrat (responsable contrats fournisseurs)
+  - Responsable sécurité des Systèmes d'Informations - RSSI
+- **Support et assistance aux utilisateur**
+  - Assistant fonctionnel (correspondant utilisateur)
+  - Technicien support utilisateurs (Helpdesk, Hotline)
+- **Management opérationnel**
+  - Directeur des systèmes d'information
+  - Responsable d'entité (informatique)
+  - Responsable d'études
+  - Responsable d'exploitation
+  - Responsable réseau
