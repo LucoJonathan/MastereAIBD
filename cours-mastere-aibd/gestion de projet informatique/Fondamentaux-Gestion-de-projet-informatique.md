@@ -104,7 +104,7 @@ Les cas que le client pourrait demander :
 - Un projet de **bonne qualité** et **pas cher**, alors **ça sera plus lent** car sans un financement adapté, un projet de qualité prendra alors plus de temps à faire pour cause d'un manque de ressource.
 
 Image illustatif :
-![Illustation contrainte client](/Images/triple-contrainte-du-projet.png)
+![Illustation contrainte client](Images/triple-contrainte-du-projet.png)
 
 ### **<u>Les objectifs des mots clé</u>**
 
