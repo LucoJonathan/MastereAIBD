@@ -17,6 +17,17 @@
 - [Vue d'ensemble des deux types de projet](#vue-densemble-des-deux-types-de-projet)
   - [Cycle en cascade des projets prédictifs - Watterfall](#cycle-en-cascade-des-projets-prédictifs---watterfall)
   - [Cycle en V des projets prédictifs](#cycle-en-v-des-projets-prédictifs)
+    - [Phase de conception](#phase-de-conception)
+    - [Phase de vérification et validation](#phase-de-vérification-et-validation)
+    - [Exemple visuel du cycle en V](#exemple-visuel-du-cycle-en-v)
+  - [La gestion de projet Agile](#la-gestion-de-projet-agile)
+  - [Prédictif vs Agile](#prédictif-vs-agile)
+  - [Avantages et inconvénients du prédictif](#avantages-et-inconvénients-du-prédictif)
+  - [Avantages et inconvénients de l'Agile](#avantages-et-inconvénients-de-lagile)
+  - [Quel modèle choisir pour mon projet](#quel-modèle-choisir-pour-mon-projet)
+- [À quoi ressemble le SI en entreprise](#à-quoi-ressemble-le-si-en-entreprise)
+  - [Le SI en entreprise](#le-si-en-entreprise)
+  - [Le pricipe et processus d'organisation](#le-pricipe-et-processus-dorganisation)
 
 ## **Définition d'un projet informatique**
 
@@ -241,6 +252,10 @@ Pour choisir au mieux son modèle, cela ce fait en fonction de 2 facteurs.
 
 ## **À quoi ressemble le SI en entreprise**
 
+### **<u>Le SI en entreprise</u>**
+
 ![SI en Entreprise](Images/si-en-entreprise.png)
+
+### **<u>Le pricipe et processus d'organisation</u>**
 
 ![Principe et processus d'organisation](Images/principe-et-processus-d-organisation.png)
