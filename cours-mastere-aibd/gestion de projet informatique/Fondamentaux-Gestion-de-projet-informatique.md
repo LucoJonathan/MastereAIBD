@@ -35,6 +35,8 @@
   - [Approche processus "Roue de Deming - PDCA"](#approche-processus-roue-de-deming---pdca)
 - [Acteurs du projet et Gouvernance](#acteurs-du-projet-et-gouvernance)
   - [Les moyens humains : les rôles dans un projet](#les-moyens-humains--les-rôles-dans-un-projet)
+- [Formalisme du besoin : cahier des charges](#formalisme-du-besoin--cahier-des-charges)
+  - [Plan type d'un cahier des charges](#plan-type-dun-cahier-des-charges)
 
 ## **Définition d'un projet informatique**
 
@@ -396,3 +398,7 @@ Coordonnent, arbitrent, valident, équilibrent objectif / capacités / charges
 
 > **Expert, développeur, architecte, Data Analyst**,...  
 > Ce sont les acteurs clés du projet qui **réalisent les lots affectés à un chantier**.
+
+## **Formalisme du besoin : cahier des charges**
+
+### **<u>Plan type d'un cahier des charges</u>**

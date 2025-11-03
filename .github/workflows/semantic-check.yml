@@ -1,6 +1,10 @@
 name: "Check the Pull Request name"
 description: "Check if current Pull Request name is valid"
 
+on:
+  pull_request:
+    types: [opened, edited, reopened, synchronize]
+
 runs:
   using: composite
   steps:
@@ -15,8 +19,8 @@ runs:
           doc
           ci
           secu
-          [major]
-          [minor]
+          (\[)?major(\])?
+          (\[)?minor(\])?
         requiredScope: true
         subjectPattern: ^(?![A-Z]).+$
         subjectPatternError: |
