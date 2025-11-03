@@ -402,3 +402,5 @@ Coordonnent, arbitrent, valident, équilibrent objectif / capacités / charges
 ## **Formalisme du besoin : cahier des charges**
 
 ### **<u>Plan type d'un cahier des charges</u>**
+
+aaa
