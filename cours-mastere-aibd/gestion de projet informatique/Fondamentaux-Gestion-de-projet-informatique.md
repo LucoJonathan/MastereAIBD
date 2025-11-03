@@ -164,7 +164,7 @@ Chaque étape dépend de l'étape précédente.
 
 #### **Exemple visuel du cycle en V**
 
-![Cycle en V](/Images/cycle-en-v.png)
+![Cycle en V](Images/cycle-en-v.png)
 
 ### **<u>La gestion de projet Agile</u>**
 
@@ -181,7 +181,7 @@ La méthode Agile est centré sur le client avec les **4 valeurs** suivantes :
 
 ### **<u>Prédictif vs Agile</u>**
 
-![Prédictif VS Agile](/Images/agile-vs-cycle-en-v.png)
+![Prédictif VS Agile](Images/agile-vs-cycle-en-v.png)
 
 ### **<u>Avantages et inconvénients du prédictif</u>**
 
@@ -241,6 +241,6 @@ Pour choisir au mieux son modèle, cela ce fait en fonction de 2 facteurs.
 
 ## **À quoi ressemble le SI en entreprise**
 
-![SI en Entreprise](/Images/si-en-entreprise.png)
+![SI en Entreprise](Images/si-en-entreprise.png)
 
-![Principe et processus d'organisation](/Images/principe-et-processus-d-organisation.png)
+![Principe et processus d'organisation](Images/principe-et-processus-d-organisation.png)
