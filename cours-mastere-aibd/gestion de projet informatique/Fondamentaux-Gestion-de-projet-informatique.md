@@ -30,6 +30,9 @@
   - [Le pricipe et processus d'organisation](#le-pricipe-et-processus-dorganisation)
   - [Les ressources humaines dans le SI d'entreprise](#les-ressources-humaines-dans-le-si-dentreprise)
 - [Terminologie](#terminologie)
+- [Génie logiciel](#génie-logiciel)
+  - [Approche processus ISO](#approche-processus-iso)
+  - [Approche processus "Roue de Deming - PDCA"](#approche-processus-roue-de-deming---pdca)
 
 ## **Définition d'un projet informatique**
 
@@ -330,3 +333,22 @@ Pour choisir au mieux son modèle, cela ce fait en fonction de 2 facteurs.
   - Livraison, Installation, Formation.
 - **La Maintenance**
   - corrections, et évolutions.
+
+---
+
+## **Génie logiciel**
+
+### **<u>Approche processus ISO</u>**
+
+> Un processus se défini comme un ensemble d'activités corrélées (liées et interdépendantes) qui transforme des éléments d'entrée en éléments de sortie.  
+> Un élément de sortie d'un processus constitue souvent l'élément d'entrée d'un autre processus ou transmis au client (produit ou service)
+
+![Génie logiciel - approche processus](Images/génie-logiciel-approche-processus.png)
+
+### **<u>Approche processus "Roue de Deming - PDCA"</u>**
+
+![Génie logiciel - approche processus "Roue de Deming" - PDCA](Images/approche-processus-roue-de-deming-pdca.png)
+
+---
+
+##
