@@ -29,6 +29,7 @@
   - [Le SI en entreprise](#le-si-en-entreprise)
   - [Le pricipe et processus d'organisation](#le-pricipe-et-processus-dorganisation)
   - [Les ressources humaines dans le SI d'entreprise](#les-ressources-humaines-dans-le-si-dentreprise)
+- [Terminologie](#terminologie)
 
 ## **Définition d'un projet informatique**
 
@@ -308,3 +309,24 @@ Pour choisir au mieux son modèle, cela ce fait en fonction de 2 facteurs.
   - Responsable d'études
   - Responsable d'exploitation
   - Responsable réseau
+
+---
+
+## **Terminologie**
+
+- **La Spécification**
+  - traduction en spécifications fonctionnelles et techniques des besoins exprimés dans le cahier des charges ou dans l'expression de besoins.
+- **La Conception**
+  - Analyse, choix de la modélisation, définition de l'architecture, définition des modules et interfaces, définition des algorithmes.
+- **L'Implantation**
+  - Choix d'implantations, codage du logiciel dans un langage cible.
+- **L'Intégration**
+  - Assemblage des différentes parties du logiciel.
+- **La Vérification**
+  - Test fonctionnels, tests de la fiabilité, tests de la sûreté.
+- **La Validation**
+  - Recette du logiciel, conformité aux exigences du CDC.
+- **Le Déploiement**
+  - Livraison, Installation, Formation.
+- **La Maintenance**
+  - corrections, et évolutions.
