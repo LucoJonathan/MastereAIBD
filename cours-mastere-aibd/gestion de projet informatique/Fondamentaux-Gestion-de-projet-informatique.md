@@ -431,6 +431,7 @@ Outre son caractère essentiel en gestion de projet, le Cahier des Charges est u
 
 ### **<u>Plan type d'un cahier des charges</u>**
 
+<<<<<<< HEAD
 - **Présentation générale du problème**
   - Objet
   - Contexte du projet
@@ -545,3 +546,6 @@ Outre son caractère essentiel en gestion de projet, le Cahier des Charges est u
 ## **Cycle de vie d'un projet en maîtrise d'oeuvre "MOE"**
 
 ![Cycle de vie d'un projet en maîtrise d'oeuvre](Images/cycle-de-vie-projet-maitrise-d-oeuvre-moe.png)
+=======
+aaa
+>>>>>>> 50b9aaf (Test)
