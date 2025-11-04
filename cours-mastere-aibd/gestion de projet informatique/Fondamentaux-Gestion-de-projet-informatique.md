@@ -128,7 +128,7 @@ Les cas que le client pourrait demander :
 - Un projet avec un délai de **livraison rapide** et de **bonne qualité**, alors ça **ça sera plus cher**, car pour respecter un délai court il faudra plus de ressources.
 - Un projet de **bonne qualité** et **pas cher**, alors **ça sera plus lent** car sans un financement adapté, un projet de qualité prendra alors plus de temps à faire pour cause d'un manque de ressource.
 
-Image illustatif :
+Image illustatif :  
 ![Illustation contrainte client](Images/triple-contrainte-du-projet.png)
 
 ### **<u>Les objectifs des mots clé</u>**
