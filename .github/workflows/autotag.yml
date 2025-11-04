@@ -45,16 +45,17 @@ jobs:
         run: |
           pr_title="${{ github.event.pull_request.title }}"
           pr_labels="${{ toJson(github.event.pull_request.labels) }}"
-          bump="patch" # par défaut
-      
+          bump="patch"
+
+          # Vérifie les mots-clés dans le titre ou les labels
           if [[ "$pr_title" =~ ^[Mm]ajor ]] || [[ "$pr_labels" == *"major"* ]]; then
             bump="major"
           elif [[ "$pr_title" =~ ^[Ff]eat ]] || [[ "$pr_labels" == *"feat"* ]]; then
             bump="minor"
           fi
-      
+
           echo "bump=$bump" >> $GITHUB_ENV
-          echo "🧩 Type d’incrément détecté : $bump"
+          echo "🧩 Type d’incrément : $bump"
 
       - name: Compute next version
         id: next
@@ -69,7 +70,7 @@ jobs:
               feat=0
               patch=0
               ;;
-            feat)
+            minor)
               feat=$((feat + 1))
               patch=0
               ;;
