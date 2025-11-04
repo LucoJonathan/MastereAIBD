@@ -1,8 +1,8 @@
 # L'objectif de ce fichier aura pour but de créer des tags automatiquement lors de pull request
-# v"major"."minor"."patch"
+# v"major"."feat"."patch"
 # Exemple de titre de la PR
-# [major] - Ajout d'une nouvelle thématique de cours
-# [minor] - Ajout d'un nouveau header ou phrases
+# major - Ajout d'une nouvelle thématique de cours
+# feat - Ajout d'un nouveau header ou phrases
 # fix - Correction d'orthographe
 
 name: 🚀 Auto Tag & Release
@@ -49,8 +49,8 @@ jobs:
 
           if [[ "$pr_title" =~ \[major\] ]] || [[ "$pr_labels" == *"major"* ]]; then
             bump="major"
-          elif [[ "$pr_title" =~ \[minor\] ]] || [[ "$pr_labels" == *"minor"* ]]; then
-            bump="minor"
+          elif [[ "$pr_title" =~ \[feat\] ]] || [[ "$pr_labels" == *"feat"* ]]; then
+            bump="feat"
           fi
 
           echo "bump=$bump" >> $GITHUB_ENV
@@ -61,16 +61,16 @@ jobs:
         run: |
           version=${{ env.latest_tag }}
           version=${version#v}  # supprime le 'v' au début
-          IFS='.' read -r major minor patch <<< "$version"
+          IFS='.' read -r major feat patch <<< "$version"
 
           case "${{ env.bump }}" in
             major)
               major=$((major + 1))
-              minor=0
+              feat=0
               patch=0
               ;;
-            minor)
-              minor=$((minor + 1))
+            feat)
+              feat=$((feat + 1))
               patch=0
               ;;
             patch)
@@ -78,7 +78,7 @@ jobs:
               ;;
           esac
 
-          next_tag="v$major.$minor.$patch"
+          next_tag="v$major.$feat.$patch"
           echo "next_tag=$next_tag" >> $GITHUB_ENV
           echo "✨ Nouveau tag : $next_tag"
 

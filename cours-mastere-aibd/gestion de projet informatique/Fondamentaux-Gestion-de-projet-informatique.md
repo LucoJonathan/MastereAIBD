@@ -36,7 +36,12 @@
 - [Acteurs du projet et Gouvernance](#acteurs-du-projet-et-gouvernance)
   - [Les moyens humains : les rôles dans un projet](#les-moyens-humains--les-rôles-dans-un-projet)
 - [Formalisme du besoin : cahier des charges](#formalisme-du-besoin--cahier-des-charges)
+  - [Objectif du cahier des charges](#objectif-du-cahier-des-charges)
   - [Plan type d'un cahier des charges](#plan-type-dun-cahier-des-charges)
+  - [Les acteurs concernés par le cahier des charges](#les-acteurs-concernés-par-le-cahier-des-charges)
+  - [Contenu du cahier des charges](#contenu-du-cahier-des-charges)
+- [Cycle de vie d'un projet en maîtrise d'ouvrage "MOA"](#cycle-de-vie-dun-projet-en-maîtrise-douvrage-moa)
+- [Cycle de vie d'un projet en maîtrise d'oeuvre "MOE"](#cycle-de-vie-dun-projet-en-maîtrise-doeuvre-moe)
 
 ## **Définition d'un projet informatique**
 
@@ -386,6 +391,8 @@ Coordonnent, arbitrent, valident, équilibrent objectif / capacités / charges
 | réalisent le projet                                                   | Equipe projet : acteurs projet, prestataires, consultants |
 | sont concernés, soutiennent ou s'opposent au projet sans y participer | Sponsors, parties prenantes (stakeholders)                |
 
+Les principaux acteurs de la **"Core teams"** sont :
+
 > **Le commanditaire "MOA"**, aussi appelé le client ou le représentant du client final .
 > Dans le monde agile : **Business Owner** .
 > Son rôle dans le projet sera au niveau "Sponsor" et consistera à **valider les jalons du projet, investir d'avantage de budget, arbitrer les situations complexes du projet**.
@@ -401,4 +408,140 @@ Coordonnent, arbitrent, valident, équilibrent objectif / capacités / charges
 
 ## **Formalisme du besoin : cahier des charges**
 
+### **<u>Objectif du cahier des charges</u>**
+
+> Décrire de la façon la plus précise possible, avec un vocabulaire simple, les besoins auxquels le Maître d'oeuvre doit répondre de sorte à ce que chaque besoin soit :
+
+> **Nécessaire**  
+> indique tous les paramètres requis pour la conception et réalisation du projet
+
+> **Réalisable**  
+> exprime un besoin réaliste techniquement et financièrement dans le cadre du planning, du périmètre détaillé du projet et des moyens disponibles
+
+> **Clair**  
+> L'idée ou le besoin exprimé n'est pas susceptible d'être interprété différemment de ce que pense le maître d'ouvrage
+
+> **Vérifiable**  
+> l'époque de projet doit s'assurer qu'il existe des moyens de vérifier ce qui est requis
+
+> **Cohérent**  
+> il doit exprimer des besoins qui ne se contredisent pas entre eux
+
+Outre son caractère essentiel en gestion de projet, le Cahier des Charges est un document contractuel décrivant ce qui est attendu du maître d'oeuvre par le maître d'ouvrage, exprimant un besoin ou un travail à réaliser et le contexte (clauses) dans lequel il doit être réalisé.
+
 ### **<u>Plan type d'un cahier des charges</u>**
+
+- **Présentation générale du problème**
+  - Objet
+  - Contexte du projet
+    - Situer le projet dans un programme plus vaste (étude en cours, ...)
+    - Affecter les responsabilités
+  - Expression du besoin
+  - Environnement de la solution (produit et service)
+  - Conditions de fonctionnement
+- Expression fonctionnelle des besoins
+  - Fonctions de service / Produit principales(aux)
+  - Fonction complémentaires (Infogérance)
+  - Contraintes
+- Critères d'appréciation
+- Cadre de réponse
+
+### **<u>Les acteurs concernés par le cahier des charges</u>**
+
+1. **Le Client (MOA)**
+
+- Celui qui définit les besoins et exigences du projet.
+- Il est souvent à l'origine du cahier des charges.
+
+2. **Le Chef de projet**
+
+- Responsable de la planification, de l'exécution et du suivi du projet.
+- Il doit s'assurer que le cahier des charges est respecté.
+
+3. **L'Équipe technique**
+
+- Comprend les ingénieurs, développeurs et techniciens qui vont réaliser le projet.
+- Ils interprètent les exigences techniques du cahier des charges.
+
+4. **Fournisseurs**
+
+- Si les éléments externes sont nécessaires (matériel, logiciels), les fournisseurs doivent être impliqués pour garantir que leurs produits répondent aux spécifications.
+
+5. **Parties prenantes**
+
+- Toute personne ou groupe ayant un intérêt dans le projet (utilisateurs finaux, direction, actionnaires, etc.).
+- Ils peuvent fournir des retours importants sur les besoins et attentes.
+
+6. **Auditeurs ou Experts**
+
+- Parfois, des experts externes sont consultés pour s'assurer que le projet respecte les normes et réglementations en vigeur.
+
+### **<u>Contenu du cahier des charges</u>**
+
+1. **Introduction**
+
+- Contexte du projet
+- Objectifs généraux
+
+2. **Présentation du projet**
+
+- Description détaillée du projet
+- Cibles et utilisateurs finaux
+
+3. **Objectifs spécifiques**
+
+- Résultats attendus
+- Indicateurs de succès
+
+4. **Exigences fonctionnelles**
+
+- Fonctionnalités et caractéristiques du produit ou service
+- Scénarios d'utilisation
+
+5. **Exigences techniques**
+
+- Technologies à utiliser
+- Normes et standards à respecter
+
+6. **Contraites**
+
+- Budget
+- Délais
+- Ressources disponibles
+
+7. **Planification**
+
+- Chronologie des étapes du projet
+- Dates clés et jalons
+
+8. **Critères de qualité**
+
+- Standards à atteindre
+- Méthodes de vérification et validation
+
+9. **Gestion des riques**
+
+- Identification des risques potentiels
+- Stratégies d'atténuation
+
+10. **Livrables**
+
+- Description des livrables attendus
+- Modalités de livraison et de réception
+
+11. Modalités de suivi et évaluation
+
+- Processus de suivi de l'avancement
+- Reporting
+
+12. **Annexes**
+
+- Documents supplémentaires (schémas, études de marché, etc.)
+
+## **Cycle de vie d'un projet en maîtrise d'ouvrage "MOA"**
+
+![Cycle de vie d'un projet en maîtrise d'ouvrage](Images/cycle-de-vie-projet-maitrise-d-ouvrage-moa.png)
+
+## **Cycle de vie d'un projet en maîtrise d'oeuvre "MOE"**
+
+![Cycle de vie d'un projet en maîtrise d'oeuvre](Images/cycle-de-vie-projet-maitrise-d-oeuvre-moe.png)
