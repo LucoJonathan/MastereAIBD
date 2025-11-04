@@ -1,65 +1,131 @@
-# Created by https://www.toptal.com/developers/gitignore/api/intellij
-# Edit at https://www.toptal.com/developers/gitignore?templates=intellij
-### Intellij ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
-# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+# ======================================================
+# ⚙️  BASE GLOBALE
+# ======================================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
 
-# User-specific stuff
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/**/usage.statistics.xml
-.idea/**/dictionaries
-.idea/**/shelf
+# Node & npm/yarn/pnpm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
 
-# AWS User-specific
-.idea/**/aws.xml
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+!.env.example
 
-# Generated files
-.idea/**/contentModel.xml
+# System
+.idea/
 
-# Sensitive or high-churn files
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-.idea/**/dbnavigator.xml
+# OS generated files
+ehthumbs.db
+Desktop.ini
 
-# Gradle
-.idea/**/gradle.xml
-.idea/**/libraries
-
-# Gradle and Maven with auto-import
-# When using Gradle or Maven with auto-import, you should exclude module files,
-# since they will be recreated, and may cause churn.  Uncomment if using
-# auto-import.
-# .idea/artifacts
-# .idea/compiler.xml
-# .idea/jarRepositories.xml
-# .idea/modules.xml
-# .idea/*.iml
-# .idea/modules
-# *.iml
-# *.ipr
-
-# CMake
-cmake-build-*/
-
-# Mongo Explorer plugin
-.idea/**/mongoSettings.xml
-
-# File-based project format
-*.iws
-
-# IntelliJ
+# ======================================================
+# 🧱 BUILD / DIST
+# ======================================================
+dist/
+build/
 out/
+coverage/
+.cache/
+.next/
+.nuxt/
+.tmp/
+.temp/
+.sass-cache/
+__pycache__/
+*.py[cod]
 
-# mpeltonen/sbt-idea plugin
-.idea_modules/
+# ======================================================
+# 🐍 PYTHON (si tu fais un peu de scripting)
+# ======================================================
+.venv/
+env/
+venv/
+*.egg
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+.tox/
+.mypy_cache/
+.pytest_cache/
 
-# JIRA plugin
-atlassian-ide-plugin.xml
+# ======================================================
+# ⚛️ FRONTEND / FRAMEWORKS
+# ======================================================
+# React / Vue / Angular
+*.tsbuildinfo
+.happypack
+.eslintcache
 
-# Cursive Clojure plugin
-.idea/replstate.xml
+# Expo / React Native
+.expo/
+.expo-shared/
+ios/
+android/
+Pods/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata/
+
+# ======================================================
+# 🧩 GITHUB & CI/CD
+# ======================================================
+# Ignore local action build artifacts or caches
+#.github/workflows/*.bak
+#.github/actions/**/node_modules/
+#.github/actions/**/dist/
+actions-runner/_work/
+
+# ======================================================
+# 🗂️ MISC
+# ======================================================
+# Logs / temp files
+logs/
+tmp/
+*.out
+
+# VSCode local settings / history
+.history/
+.vscode/
+*.code-workspace
+
+# ======================================================
+# 🔒 SECURITY
+# ======================================================
+# SSH keys, tokens, credentials
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+secrets/
+credentials.json
+
+# ======================================================
+# 🚀 OPTIONAL (uncomment if needed)
+# ======================================================
+# .idea/
+# .fleet/
+# .vercel/
+# .netlify/
+# .firebase/
+# .expo/
+# .vagrant/
+# docker-compose.override.yml
+# local_settings.py
+# debug.log
