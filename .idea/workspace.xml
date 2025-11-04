@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2793693c-7565-46b5-af18-c31bf25f6577" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/semantic-check.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/semantic-check.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,12 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "fix/sementic-check",
+    "git-widget-placeholder": "fix/gitignore",
     "last_opened_file_path": "C:/Users/Admin Stagiaire/Documents/Mastere-AIDB"
   }
 }]]></component>
@@ -28,5 +28,4 @@
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
-
 </project>
